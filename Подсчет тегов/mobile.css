@@ -1,0 +1,185 @@
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 1300px) {
+    
+    .body{
+        width: 100%;
+        height: 100%;
+        } 
+    .grantheader {
+        padding: 10px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 0;
+    }
+
+    .headerwrap {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .htoplogo {
+        width: 180px;
+    }
+
+    .hphone {
+        display: none;
+    }
+
+    .hmail {
+        display: none;
+    }
+
+    .hlittletext {
+        width: 100%;
+    }
+
+    .hbutton {
+        width: 100%;
+    }
+
+    .hzero {
+        width: 100%;
+        height: 180px;
+    }
+
+    .hwrapblock {
+        display: none;
+    }
+    .hbigtext {
+        width: 100%;
+        height: 120px;
+        font-size: 1.5em;
+    }
+    .hlittletext {
+        width: 100%;
+        height: 80px;
+        font-size: 0.8em;
+    }
+    .hbtn {
+        margin: auto;
+    }
+    .hblock {
+        width: 300px;
+        height: 50px;
+        border-radius: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .hblock:hover {
+        width: 300px;
+        height: 400px;
+        background-color: #f9f9f9;
+        background-image: none;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        box-shadow: 0 5px 10px #d8d8d8;
+    }
+    .hbtext {
+        top: -110px;
+    }
+    .hblock:hover > .hbtext {
+        display: none;
+    }
+    .advantages {
+        display: none
+    }
+    .zerowrap {
+        margin-top: 300px;
+        padding: 10px;
+        width:100px;
+        display: flex;
+    }
+    .advantages-litle {
+        height: 150px;
+        padding: 10px;
+        margin-top: 200px;
+    }
+    .alltext{
+        padding: 10px;
+        width: 300px;
+    }
+    .back-form{
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+        margin-top:100px;
+    }
+    .mid{
+        width: 100%;
+       /* margin-top: -70px;*/
+    }
+    .send{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+
+    }
+    .contact{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .send input[type="text"]{
+        width: 220px;
+        margin-bottom: 15px;
+    }
+    .send input[type="submit"]{
+        width: 240px;
+    }
+
+
+    .f-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+    .f-img{
+        display: none;
+    }
+    .f-offer{
+        display: block;
+        padding-right: 0;
+        margin-top: 40px;
+    }
+    .f-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .f-list p {
+        margin-bottom: 15px;
+    }
+    .f-list:last-child{
+        margin-bottom: 20px;
+    }
+    .including{
+        display: none;
+    }
+    .hbottom{
+        display: none;
+    }
+    .hburger{
+        margin-left: 50px;
+    }
+}

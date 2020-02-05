@@ -1,0 +1,310 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{width: 100%;
+    height: 100%;
+    margin: 0;
+    color:#4f5b6f;
+}
+.grantheader{
+    width: 100%;
+    height: 110vh;
+    background-image: url(img/5.jpg);
+    background-size:100%;
+    margin: 0;
+}
+/*.hbottom{
+    width: 100%;
+    height: 50px;
+}*/
+.headerwrap{
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    width: 1300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    justify-content: left;
+}
+.htoplogo{
+    width: 850px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #DFD4FE;
+    font-size: 1em;
+    font-weight: 600;
+}
+.hphone{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:#DFD4FE ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.hmail{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#DFD4FE;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.hburger {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 35px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    /*padding-right: 10px;*/
+}
+.hburger input {
+    display: flex;
+    width: 70px;
+    height:40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+}
+.hburger span{
+    width: 40px;
+    height: 5px;
+    margin-bottom: 6px;
+    background: #DFD4FE;
+    border-radius: 4px;
+    transition: all .5s;
+}
+#span1 {
+    transform-origin: 4px 1px;
+}
+#span3 {
+    transform-origin: bottom right;
+}
+.hburger input:checked ~ #span1 {
+    background-color: #DFD4FE;
+    transform: rotate(45deg) translate(5px);
+}
+.hburger input:checked ~ #span2 {
+    background-color:#DFD4FE;
+    transform: rotate(495deg) translate(4px);
+}
+.hburger input:checked ~ #span3 {
+    background-color: #DFD4FE;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+label{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+ul{
+    position: absolute;
+    top: 70px;
+    list-style: none;
+    text-align: left;
+    width: 300px;
+    z-index: 1;
+    margin:0;
+    padding:0;
+    display: none;
+}
+ul li{
+    /*padding: 15px;*/
+    background-color: #001920;
+    /*padding-left: 60px;*/
+    color: #DFD4FE;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+ul li:hover{
+    background: linear-gradient(to left,transparent 50%,#067681);
+    color: #DAB15B;
+}
+ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+.hbigtext{
+    width: 1300px;
+    height: 320px;
+    font-size: 4.5em;
+    font-weight: 600;
+    display:table-cell;
+    vertical-align: bottom;
+    color:#DFD4FE;
+}
+span{
+    color:#DAB15B;
+    font-weight: 700;
+}
+.hlittletext{
+    width: 1300px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color:#DFD4FE;
+    text-shadow: #00373e 1px 1px 5px, #00373e -1px -1px 5px,
+    #00373e -1px 1px 5px, #00373e 1px -1px 5px;
+    font-size: 1.1em;
+}
+.hbutton{
+     width: 1300px;
+     height: 150px;
+     margin-bottom: 300px;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+ }
+.hbtn {
+    color:#DFD4FE;
+    text-transform: uppercase;
+    width:150px;
+    height: 50px;
+    text-decoration:none;
+    display: flex;
+    background: #0a8998;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s ease-in;
+    font-size: 1em;
+    font-weight: 700;
+}
+.hbtn:hover{
+    width: 280px;
+    background: linear-gradient(to left,transparent 50%,#067681);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    border: hidden;
+    font-size: 1.3em;
+    color: #DAB15B;
+}
+.hzero{
+    width: 1300px;
+    height: 1200px;
+    margin-top: 100px;
+}
+.hwrapblock{
+    width: 1100px;
+    height: 300px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hwrapblock>a{
+    position: absolute;
+}
+.hblock:hover{
+    width: 320px;
+    height: 400px;
+    background-color: #f9f9f9;
+    background-image: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    box-shadow: 5px 5px 40px -15px rgba(0, 0, 0, 0.42);
+}
+.hblock{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    align-content: space-around;
+    transition-duration: 0.6s;
+    background-image: url(img/6.jpg);
+}
+.himg{
+    visibility: hidden;
+}
+.hblock:hover >.himg{
+    visibility: visible;
+}
+.hbtext{
+    position: relative;
+    top: 20px;
+    color: #DAB15B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6s;
+    font-size:1.5em;
+    font-weight: 700;
+}
+.hblock:hover > .hbtext{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6s;
+    font-size:1.5em;
+    color: #00323b;
+    font-weight: 700;
+}
+.hblock:hover > .hltext{
+    visibility: visible;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size:1em;
+    color: #00323b;
+    font-weight: 500;
+}
+.hltext{
+    visibility: hidden;
+}
+.himageall{
+    height: 120px;
+}
+.himg{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hltext{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size:1em;
+    color: #00323b;
+    font-weight: 500;
+}

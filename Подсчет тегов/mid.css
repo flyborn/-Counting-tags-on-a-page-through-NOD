@@ -1,0 +1,294 @@
+.mid{
+    width: 100%;
+    height: 1000px;
+    margin: 100px auto 100px;
+}
+.mid p, h1, h2, h3{
+    margin: 0;
+}
+.advantages {
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-advant{
+    text-align: center;
+}
+.head-advant>p{
+    margin-top: 10px;
+}
+#test, #test2, #test3, #test4, #test5{
+    display: none;
+}
+.num-one, .num-one2, .num-one3, .num-one4, .num-one5{
+    width: 20px;
+    height: 20px;
+    background-color: #06707f;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.num-one{
+    margin-top: 100px;
+}
+.num-one:before{
+    content: "01";
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.3;
+    position: absolute;
+    left: -150px;
+    top: -40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.num-one:after{
+    content: "The Hex Technologies team is delighited to work far and while within the field of IT daily.";
+    color: #000000;
+    text-align: left;
+    width: 300px;
+    font-size: 17px;
+    opacity: 0.3;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.info-input:checked + .num-one:before{
+    opacity: 1;
+}
+.info-input:checked + .num-one:after{
+    opacity: 1;
+}
+.num-one2:before{
+    content: "The Hex Technologies team is delighited to work far and while within the field of IT daily.";
+    color: #000000;
+    text-align: right;
+    font-size: 17px;
+    width: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 100px;
+    top: -10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.num-one2:after{
+    content: "02";
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.3;
+    position: absolute;
+    left: 120px;
+    top: -40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.info-input2:checked + .num-one2:before{
+    opacity: 1;
+}
+.info-input2:checked + .num-one2:after{
+    opacity: 1;
+}
+.num-one3:before{
+    content: "03";
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.3;
+    position: absolute;
+    left: -150px;
+    top: -40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.num-one3:after{
+    content: "The Hex Technologies team is delighited to work far and while within the field of IT daily.";
+    color: #000000;
+    text-align: left;
+    width: 300px;
+    font-size: 17px;
+    opacity: 0.3;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.info-input3:checked + .num-one3:before{
+    opacity: 1;
+}
+.info-input3:checked + .num-one3:after{
+    opacity: 1;
+}
+.num-one4:before{
+    content: "The Hex Technologies team is delighited to work far and while within the field of IT daily.";
+    color: #000000;
+    text-align: right;
+    font-size: 17px;
+    width: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 100px;
+    top: -10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.num-one4:after{
+    content: "04";
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.3;
+    position: absolute;
+    left: 120px;
+    top: -40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.info-input4:checked + .num-one4:before{
+    opacity: 1;
+}
+.info-input4:checked + .num-one4:after{
+    opacity: 1;
+}
+.num-one5:before{
+    content: "05";
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.3;
+    position: absolute;
+    left: -150px;
+    top: -40px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.num-one5:after{
+    content: "The Hex Technologies team is delighited to work far and while within the field of IT daily.";
+    color: #000000;
+    text-align: left;
+    width: 300px;
+    font-size: 17px;
+    opacity: 0.3;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.info-input5:checked + .num-one5:before{
+    opacity: 1;
+}
+.info-input5:checked + .num-one5:after{
+    opacity: 1;
+}
+.stick{
+    width: 2px;
+    height: 100px;
+    background-color: #ababab80;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.back-form{
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/7.jpg");
+    background-size: 100% 100%;
+}
+.contact{
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact h3{
+    color: #dab15b;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+.send{
+    margin-top: 20px;
+}
+.send input[type="text"]{
+    /*padding: 10px;*/
+    background-color: rgba(249, 249, 249, 0.11);
+    color: rgba(255, 165, 0, 0.75);
+    border: 0.5px solid #00353d;
+    outline: none;
+    margin-right: 15px;
+}
+.send input[type="submit"]{
+   /* padding: 10px 50px;*/
+    background-color: rgb(218, 177, 91);
+    color: #00353d;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.send input[type="submit"]:active{
+    background-color:rgb(6, 112, 127) ;
+    color: rgb(218, 177, 91);
+    border-radius: 15px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+.zerowrap{display: none}
+.advantages-litle {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abigtext{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alltext{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    font-size: 0.7em;
+}
+.ablock{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    opacity: 0.3;
+    justify-content: center;
+    align-items: center;
+}
+.allnumber{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dab15b;
+    font-weight: 700;
+    font-size: 3em;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.ablock:hover{
+    opacity: 1;
+}

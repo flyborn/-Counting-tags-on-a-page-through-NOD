@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f9f9f9;
+}
+p{
+    text-align: justify
+}
+.f-footer{
+    width: 1300px;
+    margin: 100px auto 0;
+}
+.f-manage{
+    display: flex;
+    justify-content: space-between;
+}
+.f-text{
+    margin-right: 20px;
+}
+.f-text>h1{
+    font-size: 40px;
+    margin: 0 0 40px 0;
+}
+.f-text>p{
+    font-size: 16px;
+}
+.f-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.f-img>img{
+width: 350px;
+    height: 260px;
+    margin-left: 20px;
+    box-shadow: 7px 7px 10px -2px #ababab;
+}
+.f-offer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   /* padding-right: 50px;*/
+}
+.including{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.including span{
+    color: #1960ad;
+}
+.including .grey{
+    color: #9f9f9f;
+}
+.f-list{
+    align-self: center;
+    font-weight: bold;
+    position: relative;
+}
+.f-list p{
+    transition-duration: 0.5s;
+}
+.f-list p:hover{
+    transform: scale(1.3);
+    color: #dab15b;
+    cursor: pointer;
+}
+.f-list p:before{
+    content: " ";
+    position: absolute;
+    left: -30px;
+    margin-top: 7px;
+    width: 7px;
+    height: 7px;
+    background-color: #1960ad;
+    border-radius: 50%;
+}
